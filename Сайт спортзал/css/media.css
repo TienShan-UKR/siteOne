@@ -1,0 +1,741 @@
+/* --------------------------------------БУРГЕР------------------------------------------- */
+@media screen and (max-width: 509px) {
+    .tel_add {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .topnav {
+        height: auto;
+    }
+    .topnav a {
+        display: none;
+        margin: 0;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .nav-login {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* --------------------------------------БЛОК ТРЕНЕР АДАПТИВ------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 800px) {
+    .view h2 {
+        font-size: 7px;
+        padding-bottom: 4%;
+        margin: 4% 6% 0 4%;
+    }
+    .view h3 {
+        font-size: 7px;
+        padding-bottom: 4%;
+        margin: 4% 6% 0 4%;
+    }
+    .view p {
+        font-size: 7.5px;
+        font-weight: 500;
+    }
+    .view a.info {
+        font-size: 7px;
+        margin-top: 2%;
+        padding: 2% 3%;
+    }
+    div#all {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .view {
+        width: 43% !important;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 420px) {
+    .view h2 {
+        font-size: 8px;
+    }
+    .view h3 {
+        font-size: 8px;
+    }
+    .view p {
+        font-size: 8.5px;
+    }
+    .view a.info {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 500px) {
+    .view .mask {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        overflow: hidden;
+        top: 17px;
+        left: 0;
+    }
+    .view h2 {
+        font-size: 10px;
+    }
+    .view h3 {
+        font-size: 10px;
+    }
+    .view p {
+        font-size: 10px;
+    }
+    .view a.info {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .view h2 {
+        font-size: 11.5px;
+        margin: 8% 12% 0 8%;
+    }
+    .view h3 {
+        font-size: 11.5px;
+        margin: 8% 12% 0 8%;
+    }
+    .view p {
+        font-size: 11.5px;
+    }
+    .view a.info {
+        font-size: 11.5px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    .view h2 {
+        font-size: 14px;
+        margin: 8% 12% 0 8%;
+    }
+    .view h3 {
+        font-size: 14px;
+        margin: 8% 12% 0 8%;
+    }
+    .view p {
+        font-size: 14px;
+    }
+    .view a.info {
+        margin-top: 6%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    .view h2 {
+        font-size: 17px;
+        margin: 8% 12% 0 8%;
+    }
+    .view h3 {
+        font-size: 17px;
+        margin: 8% 12% 0 8%;
+    }
+    .view p {
+        font-size: 17px;
+    }
+    .view a.info {
+        margin-top: 6%;
+        font-size: 17px;
+    }
+}
+
+/* --------------------------------------СЛАЙД------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 900px) {
+    .slider {
+        display: none;
+    }
+}
+
+/* --------------------------------------НАДПИСЬ БЛОКОВ АДАПТИВ------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 399px) {
+    .coach span {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 900px) {
+    .services span {
+        position: absolute !important;
+        left: 50% !important;
+        transform: translate(-50%, -20%) !important;
+        background-color: white !important;
+        padding: 5px !important;
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .services {
+        margin-top: 20px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+/* --------------------------------------Блок записи------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 399px) {
+    .training_img2 {
+        display: none;
+    }
+    .training_form {
+        position: absolute;
+        left: 20%;
+        top: 5%;
+        max-width: 320px;
+        text-align: center;
+    }
+    .free_img1 {
+        width: 100vw;
+        height: auto;
+    }
+    .training_form h4 {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_form p {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_content {
+        position: absolute;
+        left: -8% !important;
+        width: 100%;
+        height: auto;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+    .training_img2 {
+        display: none;
+    }
+    .training_form {
+        position: absolute;
+        left: 28%;
+        top: 0;
+        max-width: 320px;
+        text-align: center;
+    }
+    .free_img1 {
+        width: 300px;
+        height: 300px;
+    }
+    .training_form h4 {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_form p {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_content {
+        position: absolute;
+        left: -8% !important;
+        width: 100%;
+        height: auto;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+    .training_img2 {
+        display: none;
+    }
+    .training_form {
+        position: absolute;
+        left: 60%;
+        top: 0%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .free_img1 {
+        width: 300px;
+        height: 300px;
+    }
+    .training_form h4 {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_form p {
+        font-size: 17px;
+        line-height: 15px;
+        color: white;
+        font-weight: 550;
+    }
+    .training_content {
+        position: absolute;
+        left: -8% !important;
+        width: 100%;
+        height: auto;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 740px) {
+    .training_img2 {
+        display: none;
+    }
+    .training_form {
+        position: absolute;
+        left: 45%;
+        top: 0%;
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 741px) and (max-width: 1000px) {
+    .training_img2 {
+        display: none;
+    }
+    .training_form {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+/* --------------------------------------Order_flexbox_position------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+    .all_media_order_0 {
+        order: 0;
+    }
+    .all_media_order_1 {
+        order: 1;
+    }
+}
+
+/* --------------------------------------footer------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+    .footer_container .footer_text_all {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .footer_text_all .footer_address, .footer_phone, .footer_email {
+        line-height: 25px !important;
+        margin-top: 5px !important;
+        text-align: center !important;
+        padding-right: 10px !important;
+    }
+    .footer_container {
+        padding: 10px 0px 0px 5px !important;
+    }
+}
+
+/*..................................КАРТЫ..........................................*/
+
+@media only screen and (min-width: 1px) and (max-width: 850px) {
+    .all_cards .buy_card {
+        position: relative;
+        left: 28%;
+        top: 60px;
+        margin-top: 1.5%;
+        display: block;
+        width: 150px;
+        height: 40px;
+        line-height: 15px;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 -1px 1px rgb(184, 30, 30);
+        color: #fff;
+        outline: none;
+        border: 2px solid #ca3a19;
+        border-radius: 5px;
+        box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #800;
+        background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .all_cards .buy_card:active {
+        position: relative;
+        left: 28%;
+        margin-top: 1.5%;
+        box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+    }
+    .item_card1, .item_card3, .item_card5, .item_card7, .item_card9 {
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 1%;
+        width: 200px;
+    }
+    .item_card2, .item_card4, .item_card8, .item_card10 {
+        position: absolute;
+        top: 13%;
+        left: 70%;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .item_card6 {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .card3 br {
+        display: none;
+    }
+    .card1, .card2, .card3, .card4, .card5 {
+        position: relative;
+        border-bottom: #a7a1a1 solid 2px;
+        padding-bottom: 70px;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .time, .free_first, .freezing_card, .chip_card {
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 381px) and (max-width: 500px) {
+    .all_cards .buy_card {
+        position: relative;
+        left: 34%;
+    }
+    .all_cards .buy_card:active {
+        position: relative;
+        left: 34%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 850px) {
+    .all_cards .buy_card {
+        position: relative;
+        left: 38%;
+    }
+    .all_cards .buy_card:active {
+        position: relative;
+        left: 38%;
+    }
+    .item_card2, .item_card4, .item_card8, .item_card10 {
+        position: absolute;
+        top: 13%;
+        left: 80%;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .item_card6 {
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .term {
+        position: absolute;
+        left: 80%;
+    }
+}
+
+/* --------------------------------------КОНТЕНТ УСЛУГ------------------------------------------- */
+
+@media only screen and (min-width: 1px) and (max-width: 429px) {
+    .wrapper_services .services_text2, .services_text4, .services_text6, .services_text8, .services_text10, .services_text12 {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translate(-20%, 0%);
+        text-align: center;
+        font-size: 14px;
+        animation-name: text_appear2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 659px) {
+    .wrapper_services .services_text2, .services_text4, .services_text6, .services_text8, .services_text10, .services_text12 {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-20%, 0%);
+        text-align: center;
+        font-size: 14px;
+        animation-name: text_appear2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 1000px) {
+    .wrapper_services .services_text2, .services_text4, .services_text6, .services_text8, .services_text10, .services_text12 {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-20%, 0%);
+        text-align: center;
+        font-size: 14px;
+        animation-name: text_appear2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .personal_training_title {
+        font-size: 40px !important;
+        letter-spacing: 1px !important;
+        padding: 5px !important;
+    }
+    a.button1 {
+        padding: 10px 10px !important;
+    }
+}
+
+/* --------------------------------------КЛУБЫ------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    .foto_club {
+        display: flex;
+        flex-direction: column;
+    }
+    .foto_club .foto1 {
+        width: 90%;
+        height: 60vh;
+    }
+    .foto_club .foto2 {
+        width: 90%;
+        height: 60vh;
+    }
+    .wrapper_club {
+        margin-top: 0px !important;
+    }
+    .foto_club .text_club1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        height: 75px;
+        font-size: 25px;
+    }
+    .foto_club .text_club2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        height: 75px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 950px) {
+    .foto_club .foto1 {
+        width: 90%;
+        height: 60vh;
+    }
+    .foto_club .foto2 {
+        width: 90%;
+        height: 60vh;
+    }
+    .wrapper_club {
+        margin-top: 0px !important;
+    }
+    .foto_club .text_club1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        height: 75px;
+        font-size: 25px;
+    }
+    .foto_club .text_club2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        height: 75px;
+        font-size: 25px;
+    }
+}
+
+
+/* --------------------------------------КЛУБ 1------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+    .club1_wrapper .rightimg {
+        display: none;
+    }
+    .club1_wrapper .club1_description {
+        padding: 10px;
+        font-size: 17px;
+        width: 100%;
+        text-align: justify;
+    }
+    .club1_title {
+        font-size: 50px !important;
+    }
+    .gallery {
+        margin: 40px auto 0 !important;
+        width: 300px !important;
+        margin-bottom: 100px !important;
+    }
+    .gallery a {
+        height: 100px !important;
+        width: 140px !important;
+        margin: 0px !important;
+    }
+    body .gallery a:focus .galerry_img1 {
+        height: 228.5%;
+        left: -10px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img2 {
+        height: 228.5%;
+        left: -176px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img3 {
+        height: 228.5%;
+        left: -10px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img4 {
+        height: 228.5%;
+        left: -176px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img5 {
+        height: 228.5%;
+        left: -10px;
+        top: -40px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img6 {
+        height: 228.5%;
+        left: -176px;
+        top: -40px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img7 {
+        height: 228.5%;
+        left: -10px;
+        top: -40px;
+        width: 228.5%;
+    }
+    body .gallery a:focus .galerry_img8 {
+        height: 228.5%;
+        left: -176px;
+        top: -40px;
+        width: 228.5%;
+    }
+}
+
+
+/* --------------------------------------Расписание------------------------------------------- */
+
+@media screen and (max-width: 321px) {
+    .timetable {
+        display: none;
+    }
+}
+
+/* --------------------------------------POPAP------------------------------------------- */
+
+@media screen and (max-width: 321px) {
+    .popap_list {
+        font-size: 15px;
+        margin: 10px 0px 10px 0px;
+        line-height: 15px;
+    }
+    .popap_title {
+        font-size: 25px;
+    }
+}
+
+/* --------------------------------------Перс тренировка------------------------------------------- */
+
+@media screen and (max-width: 321px) {
+    .personal_training_title {
+        font-size: 40px !important;
+        letter-spacing: 1px !important;
+        padding: 5px !important;
+    }
+    a.button1 {
+        padding: 10px 10px !important;
+    }
+}
+
+/* --------------------------------------КОНТАКТЫ------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+    .contacts_wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        position: relative !important;
+        width: 100vw !important;
+        height: 150vh !important;
+    }
+    .contacts_container .contacts_phone {
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+    .contacts_container .contacts_time {
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        position: absolute;
+        left: 0%;
+        top: 140px;
+    }
+    .contacts_form {
+        max-width: 600px;
+        margin: 0 auto;
+        position: absolute;
+        left: 0%;
+        top: 300px;
+    }
+    .contacts_wrapper .contacts_form .input_contact {
+        display: flex;
+        justify-content: center;
+    }
+}

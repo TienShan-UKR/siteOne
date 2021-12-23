@@ -1,0 +1,69 @@
+.free_training {
+    background-color: black;
+}
+
+.free_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.training_form {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.training_content {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.training_header1 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+.training_header2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.training_form_input1, .training_form_input2 {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 55%;
+    height: 40px;
+    padding: 0px 20px;
+    color: black;
+}
+
+.training_form_btn {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgb(184, 30, 30);
+    color: #fff;
+    outline: none;
+    border: 2px solid #ca3a19;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+
+.training_form_btn:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}

@@ -1,0 +1,515 @@
+/* --------------------------------------ОБЩЕЕ------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+
+html, body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.flexbox_order_media {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* --------------------------------------ХЕАДЕР/БУРГЕР------------------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+#close_popap_and_area_item {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.img_0 {
+    background-color: black;
+    padding: 1%;
+    display: block;
+    text-decoration: none;
+}
+
+.tel_add {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    padding: 10px 15px 3px 5px;
+    margin: 1px;
+    text-align: right;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.address {
+    padding: 0px 15px 7px 5px;
+    margin: 1px;
+    text-align: right;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number:before {
+    font-family: 'icomoon';
+    content: "\e942";
+    padding-right: 5px;
+    color: rgb(202, 177, 32);
+}
+
+.address::before {
+    font-family: 'icomoon';
+    content: "\e947";
+    padding-right: 5px;
+    color: rgb(202, 177, 32);
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 60px;
+}
+
+.topnav a {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav a:hover {
+    border-top: #cb0101 1px solid;
+    color: white;
+    transition: 0.6s;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.nav-login {
+    float: right;
+}
+
+.header__social {
+    float: right;
+    margin-right: 20px;
+}
+
+.header__social-list {
+    display: flex;
+    list-style: none;
+}
+
+.header__social-list li{
+    margin-right: 10px;
+}
+
+.header__social-img {
+    width: 30px;
+    height: auto;
+}
+
+.header__social-link a {
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.header__social-link a:hover {
+    border-top: none;
+    color: none;
+    transition: none;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* --------------------------------------СЛАЙДЕР------------------------------------------- */
+
+/* Обертка слайдера */
+
+.slider {
+    position: relative;
+    height: 100vh;
+}
+
+/* Позиция слайдов */
+
+.slider__slides {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+}
+
+/* Кнопки */
+
+.slider__control {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    margin-left: -36px;
+    margin-top: -30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/* Позиция правой кнопки */
+
+.slider__control--right {
+    left: 96%;
+}
+
+/* Цвет кнопки при наведении */
+
+.slider__control:hover {
+    background-color: #cb0101;
+}
+
+/* Позиция стрелок в кнопке */
+
+.slider__control-line {
+    position: absolute;
+    left: 23px;
+    top: 50%;
+    width: 3px;
+    height: 14px;
+    transform-origin: 50% 0;
+    transform: rotate(-45deg);
+}
+
+/* Ротации при нажатии на стрелки */
+
+.slider__control-line:nth-child(2) {
+    transform: translateY(1px) rotate(-135deg);
+}
+
+.slider__control--right .slider__control-line {
+    left: 37px;
+    transform-origin: 1px 0;
+    transform: rotate(45deg);
+}
+
+.slider__control--right .slider__control-line:nth-child(2) {
+    transform: translateY(1px) rotate(135deg);
+}
+
+/* Стрелки стили */
+
+.slider__control-line:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: background-color 0.3s;
+}
+
+/* Цвет стрелок ховер */
+
+.slider__control:hover .slider__control-line:after {
+    background-color: white;
+}
+
+/* Скорость ротации стрелок и кейфреймы */
+
+.slider__control.a--rotation .slider__control-line:after {
+    animation: arrowLineRotation 0.49s;
+}
+
+.slider__control.a--rotation .slider__control-line:nth-child(1):after {
+    animation: arrowLineRotationRev 0.49s;
+}
+
+@keyframes arrowLineRotation {
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes arrowLineRotationRev {
+    to {
+        transform: rotate(-180deg);
+    }
+}
+
+/* Обертка слайдов стили позиция трансформы */
+
+.slide {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    transition: clip-path 0s 0.91s;
+    clip-path: circle(120px at 120vw 50%);
+}
+
+/* Позиция трансформов от кнопки */
+
+.slide.s--prev {
+    clip-path: circle(0px at 4vw 50%);
+}
+
+.slide.s--active {
+    z-index: 2;
+    transition: clip-path 2s;
+    clip-path: circle(130vmax at 1vw 50%);
+}
+
+.slide.s--active.s--active-prev {
+    clip-path: circle(120vmax at 30vw 50%);
+}
+
+/* Слайды */
+
+.slide:nth-child(1) .slide__inner {
+    background: url("../img/slide_first.jpg");
+}
+
+.slide:nth-child(2) .slide__inner {
+    background-color: rgb(207, 28, 28);
+}
+
+.slide:nth-child(3) .slide__inner {
+    background: url("../img/slide_third.jpg");
+}
+
+/* Слайды позиция */
+
+.slide__inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -50vw;
+    margin-top: -50vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slide__inner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* --------------------------------------НАДПИСИ БЛОКОВ------------------------------------------- */
+
+.coach {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.services hr, .coach hr {
+    position: relative;
+    top: 25px;
+}
+
+.coach span {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.services {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.services span {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: white;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* --------------------------------------БЛОК ТРЕНЕР------------------------------------------- */
+
+div#all {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 8px 8px 16px black;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+
+.view .mask {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 1.4vw;
+    font-family: 'Oswald', sans-serif;
+    margin: 5% 7% 0 7%;
+    padding-bottom: 5%;
+}
+
+.view p:nth-child(3) {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.view p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2vw;
+    position: relative;
+    padding: 0px 20px 0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    margin-top: 5%;
+    padding: 2% 3%;
+    font-size: 1.2vw;
+}
+
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+/* --------------------------------------ТРАНСФОРМ БЛОК ТРЕНЕР------------------------------------------- */
+
+.view-tenth img {
+    transform: scaleY(1);
+    transition: all .7s ease-in-out;
+}
+
+.view-tenth .mask {
+    background-color: rgba(255, 231, 179, 0.3);
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+
+.view-tenth h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+
+.view-tenth p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.view-tenth h3 {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 5% 7% 0 7%;
+    padding-bottom: 5%;
+    font-size: 1.2vw;
+}
+
+.view-tenth a.info {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.view-tenth:hover img {
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0;
+}
+
+.view-tenth:hover .mask {
+    opacity: 1;
+}
+
+.view-tenth:hover h2, .view-tenth:hover h3, .view-tenth:hover p, .view-tenth:hover a.info {
+    transform: scale(1);
+    opacity: 1;
+}

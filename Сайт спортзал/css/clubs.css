@@ -1,0 +1,88 @@
+.wrapper_club {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.to_club1, .to_club2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.title_club {
+    font-size: 55px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.foto_club {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto1 {
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 100vw;
+    height: 75vh;
+    background: url(../img/club1.jpg) 0 0 / 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.8s ease 0s;
+}
+
+.foto2 {
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 100vw;
+    height: 75vh;
+    background: url(../img/club2.jpg) 0 0 / 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.8s ease 0s;
+}
+
+.text_club1, .text_club2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.wrapper_bg1, .wrapper_bg2 {
+    width: 100%;
+    height: 100%;
+}
+
+.flex_bg1, .flex_bg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+
+
+
+.foto1:hover, .foto2:hover {
+    transform: scale(1.05, 1.05);
+}

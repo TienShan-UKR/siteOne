@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/timetable.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div id="close_popap_and_area_item">s</div>
+        <div class="container">
+            <a href="index.html" class="img_0">
+                <img src="img/blob1.jpg" alt="">
+            </a>
+            <div class="tel_add">
+                <div class="number">(+380) 93 411 89 62</div>
+                <div class="address">улиця Брацлавська, 35</div>
+            </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html#serv">Услуги</a>
+            <a href="clubs.html">Клубы</a>
+            <a href="index.html#card">Абонименты</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="timetable.html">Расписание</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="header__social">
+                <ul class="header__social-list">
+                    <li class="header__social-link"><a href="#"><img class="header__social-img"
+                                src="img/free-icon-instagram-174855.svg" alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/telegram.svg"
+                                alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/viber.svg"
+                                alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/facebook.svg"
+                                alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="timetable">
+        <div class="time_table_title">
+            Расписание занятий
+        </div>
+        <hr size="3px" color="#cb0101" width="97%">
+        <div class="container_timetable">
+            <div class="wrapper_time">
+                <div class="arrows_timetable">
+                    <div class="left_arrow">
+                        <button class="left_arrow_week">
+                            <img src="img/arrow_back_left_icon_123734.ico" class="add_arrow1" alt="arrow">Предыдущая
+                            неделя</button>
+                    </div>
+                    <div class="name_current_week1">Предыдущая неделя</div>
+                    <div class="name_current_week2">Текущая неделя</div>
+                    <div class="name_current_week3">Следующая неделя</div>
+                    <div class="right_arrow">
+                        <button class="right_arrow_week">
+                            Следующая неделя<img src="img/arrow_next_right_icon_123733.ico" class="add_arrow2"
+                                alt="arrow"></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container_slider">
+                <div class="slider_window">
+                    <div class="slider-line">
+                        <div class="schedule_items">
+                            <div class="item1">
+                                <div class="date">12.06.2021<br>Понедельник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item2">
+                                <div class="date">13.06.2021<br>Вторник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item3">
+                                <div class="date">14.06.2021<br>Среда</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item4">
+                                <div class="date">15.06.2021<br>Четверг</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                            </div>
+                            <div class="item5">
+                                <div class="date">16.06.2021<br>Пятница</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item6">
+                                <div class="date1">17.06.2021<br>Суббота</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item7">
+                                <div class="date2">18.06.2021<br>Воскресенье</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="schedule_items">
+                            <div class="item1">
+                                <div class="date">19.06.2021<br>Понедельник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item2">
+                                <div class="date">20.06.2021<br>Вторник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item3">
+                                <div class="date">21.06.2021<br>Среда</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item4">
+                                <div class="date">22.06.2021<br>Четверг</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                            </div>
+                            <div class="item5">
+                                <div class="date">23.06.2021<br>Пятница</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item6">
+                                <div class="date1">24.06.2021<br>Суббота</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item7">
+                                <div class="date2">25.06.2021<br>Воскресенье</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="schedule_items">
+                            <div class="item1">
+                                <div class="date">26.06.2021<br>Понедельник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item2">
+                                <div class="date">27.06.2021<br>Вторник</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item3">
+                                <div class="date">28.06.2021<br>Среда</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                            </div>
+                            <div class="item4">
+                                <div class="date">29.06.2021<br>Четверг</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                            </div>
+                            <div class="item5">
+                                <div class="date">30.06.2021<br>Пятница</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item6">
+                                <div class="date1">01.07.2021<br>Суббота</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">13<sup>30</sup>-14<sup>30</sup><br><br>ТЯЖЕЛАЯ
+                                        АТЛЕТИКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto3" src="img/coach_2.jpg" width="80%" height="auto"
+                                            alt=""></img>Юрий Джавун
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">18<sup>00</sup>-19<sup>00</sup><br><br>BOXING</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto4" src="img/coach_3.jpg" width="80%" height="auto"
+                                            alt=""></img>Сергей Захидов
+                                    </a></div>
+                                <div class="item_time2"><span
+                                        class="time">20<sup>00</sup>-21<sup>00</sup><br><br>PILATES</span><br><br><a
+                                        href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto5" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                            <div class="item7">
+                                <div class="date2">02.07.2021<br>Воскресенье</div>
+                                <div class="item_time1"><span class="time">7<sup>30</sup>-8<sup>30</sup><br><br>УТРЕННЯЯ
+                                        ЗАРЯДКА</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto1" src="img/coach_1.jpg" width="80%" height="auto"
+                                            alt=""></img>Константин
+                                        Омельницкий
+                                    </a></div>
+                                <div class="item_time2"><span class="time">12<sup>30</sup>-13<sup>30</sup><br><br>YOGA
+                                        HATHA</span><br><br><a href="index.html#coach" class="modal_window1">
+                                        <img class="modal_foto2" src="img/coach_4.jpg" width="80%" height="auto"
+                                            alt=""></img>Татьяна Тума
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="img_footer">
+                <img src="img/blob1.jpg" alt="">
+            </div>
+            <div class="footer_text_all">
+                <div class="footer_address">
+                    <span class="footer_text1">Адрес:</span>
+                    <span class="footer_text2">улиця Брацлавська, 35</span>
+                </div>
+                <div class="footer_phone">
+                    <span class="footer_text1">Телефон:</span>
+                    <span class="footer_text2">(+380) 93 411 89 62</span>
+                </div>
+                <div class="footer_email">
+                    <span class="footer_text1">E-mail:</span>
+                    <span class="footer_text2">TienxShan@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-links">
+            <div class="header__social">
+                <ul class="header__social-list">
+                    <li class="header__social-link"><a href="#"><img class="header__social-img"
+                                src="img/free-icon-instagram-174855.svg" alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/telegram.svg"
+                                alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/viber.svg"
+                                alt=""></a></li>
+                    <li class="header__social-link"><a href="#"><img class="header__social-img" src="img/facebook.svg"
+                                alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr size="5px" width="80%" color="#555555">
+        <div class="copyright">
+            © 2021 Фитнес клуб.
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <!--JAVASCRIPT-->
+    <script src="js/javascript.js"></script>
+</body>
+
+
+</html>

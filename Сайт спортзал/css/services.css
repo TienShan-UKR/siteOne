@@ -1,0 +1,122 @@
+.wrapper_services {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.wrapper_services .services_text2 a, .services_text4 a, .services_text6 a, .services_text8 a, .services_text10 a, .services_text12 a {
+    list-style-type: none;
+    text-decoration: 0;
+    color: white;
+}
+
+.wrapper_services .wrapper_item1, .wrapper_item2, .wrapper_item3, .wrapper_item4, .wrapper_item5, .wrapper_item6 {
+    position: relative;
+    height: 100%;
+    flex: 50%;
+    padding: 160px;
+    background-size: cover;
+    background-position: center center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 5px solid gray;
+}
+
+.wrapper_item1 {
+    background-image: url('../img/services_11.jpg');
+}
+
+.wrapper_item2 {
+    background-image: url('../img/servises_22.jpg');
+}
+
+.wrapper_item3 {
+    background-image: url('../img/services_33.jpg');
+}
+
+.wrapper_item4 {
+    background-image: url('../img/services_44.jpg');
+}
+
+.wrapper_item5 {
+    background-image: url('../img/services_55.jpg');
+}
+
+.wrapper_item6 {
+    background-image: url('../img/services_66.jpg');
+}
+
+.wrapper_services .services_text1, .services_text3, .services_text5, .services_text7, .services_text9, .services_text11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation-name: text_appear1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.wrapper_services .services_text2, .services_text4, .services_text6, .services_text8, .services_text10, .services_text12 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, 0%);
+    text-align: center;
+    font-size: 14px;
+    animation-name: text_appear2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.wrapper_item1:hover .services_text1, .wrapper_item2:hover .services_text3, .wrapper_item3:hover .services_text5, .wrapper_item4:hover .services_text7, .wrapper_item5:hover .services_text9, .wrapper_item6:hover .services_text11 {
+    animation-name: text_change1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.wrapper_item1:hover .services_text2, .wrapper_item2:hover .services_text4, .wrapper_item3:hover .services_text6, .wrapper_item4:hover .services_text8, .wrapper_item5:hover .services_text10, .wrapper_item6:hover .services_text12 {
+    animation-name: text_change2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text_change1 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes text_change2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes text_appear1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes text_appear2 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

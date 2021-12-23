@@ -1,0 +1,274 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+.time_table_title {
+    font-size: 45px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.container_timetable {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.wrapper_time {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.arrows_timetable {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.schedule_items .item1, .item2, .item3, .item4, .item5, .item6, .item7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+.item_time1, .item_time2, .item_time3, .item_time4, .item_time5, .item_time6 {
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    border-bottom: 4px solid goldenrod;
+    background-color: lightgrey;
+}
+
+.schedule_items .date, .date1, .date2 {
+    height: 100%;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.schedule_items .date1, .date2 {
+    color: rgb(185, 28, 28);
+}
+
+.time:before {
+    font-family: 'icomoon';
+    content: "\e902";
+    color: #EA1502;
+    padding-right: 5px;
+}
+
+.left_arrow_week, .right_arrow_week {
+    padding: 1.5vh 1vw;
+    font-size: 2.5vh;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.left_arrow_week:hover, .right_arrow_week:hover {
+    background-color: goldenrod
+}
+
+.left_arrow_week:active, .right_arrow_week:active {
+    background-color: goldenrod;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.add_arrow1 {
+    position: relative;
+    top: 8px;
+    right: 20px;
+    width: 10%;
+    height: auto;
+}
+
+.add_arrow2 {
+    position: relative;
+    top: 8px;
+    left: 20px;
+    width: 10%;
+    height: auto;
+}
+
+.slider_window {
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.slider-line {
+    display: flex;
+    position: relative;
+    left: -100vw;
+    transition: all ease 1s;
+}
+
+.schedule_items {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 100%;
+    margin: 40px 0px;
+    font-size: 12px;
+    min-width: 100vw;
+}
+
+.name_current_week1 {
+    position: absolute;
+    left: 34%;
+    font-size: 3vw;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.name_current_week2 {
+    position: absolute;
+    left: 37%;
+    font-size: 3vw;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.name_current_week3 {
+    position: absolute;
+    left: 35%;
+    font-size: 3vw;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.modal_window1 {
+    text-decoration: none;
+}
+
+.modal_window1:hover .modal_foto1 {
+    display: block;
+}
+
+.modal_window1:hover .modal_foto2 {
+    display: block;
+}
+
+.modal_window1:hover .modal_foto3 {
+    display: block;
+}
+
+.modal_window1:hover .modal_foto4 {
+    display: block;
+}
+
+.modal_window1:hover .modal_foto5 {
+    display: block;
+}
+
+.modal_foto1 {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    z-index: 100;
+    display: none;
+    transition: all ease 1s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.modal_foto2 {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    z-index: 100;
+    display: none;
+    transition: all ease 1s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.modal_foto3 {
+    position: absolute;
+    left: 0px;
+    top: 320px;
+    z-index: 100;
+    display: none;
+    transition: all ease 1s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.modal_foto4 {
+    position: absolute;
+    left: 0px;
+    top: 450px;
+    z-index: 100;
+    display: none;
+    transition: all ease 1s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.modal_foto5 {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    z-index: 100;
+    display: none;
+    transition: all ease 1s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*---------------------------------------Медиа_320-----------------------------------------------*/
+

@@ -1,0 +1,162 @@
+.club {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 40px;
+}
+
+.club .club_card {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  padding: 20px;
+  color: rgb(209, 9, 9);
+}
+
+.club .type_card {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  color: black;
+  font-weight: bold;
+  border-bottom: #F02F17 solid 3px;
+  padding-bottom: 15px;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+  position: relative;
+  border-bottom: #a7a1a1 solid 2px;
+  padding-bottom: 20px;
+}
+
+.term {
+  position: absolute;
+  left: 70%;
+}
+
+.item_card6 {
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.item_card2, .item_card4, .item_card8, .item_card10 {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.item_card1, .item_card3, .item_card5, .item_card7, .item_card9 {
+  position: absolute;
+  top: -10%;
+  left: 5%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+
+.all_cards .buy_card {
+  position: relative;
+  left: 83%;
+  margin-top: 1.5%;
+  display: block;
+  width: 15vw;
+  height: 40px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px rgb(184, 30, 30);
+  color: #fff;
+  outline: none;
+  border: 2px solid #ca3a19;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.all_cards .buy_card:active {
+  position: relative;
+  left: 83%;
+  margin-top: 1.5%;
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+
+.item_card1:before, .item_card3:before, .item_card5:before, .item_card7:before, .item_card9:before {
+  font-family: 'icomoon';
+  content: "\e905";
+  padding-right: 5px;
+  color: #EA1502;
+}
+
+.discout_club:after {
+  font-family: 'icomoon';
+  content: "\e900";
+  padding-left: 15px;
+}
+
+/*_____________________нижний блок________________________________*/
+
+.description_wrapper {
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.description_text {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.time, .free_first, .freezing_card, .chip_card {
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 40px;
+  width: 30%;
+  height: auto;
+}
+
+.description .time:before {
+  font-family: 'icomoon';
+  content: "\e902";
+  color: #EA1502;
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.free_first:before {
+  font-family: 'icomoon';
+  content: "\e904";
+  padding-right: 5px;
+  color: #EA1502;
+  font-size: 15px;
+}
+
+.freezing_card:before {
+  font-family: 'icomoon';
+  content: "\e903";
+  padding-right: 5px;
+  color: #EA1502;
+  font-size: 15px;
+}
+
+.chip_card:before {
+  font-family: 'icomoon';
+  content: "\e901";
+  padding-right: 5px;
+  color: #EA1502;
+  font-size: 15px;
+}

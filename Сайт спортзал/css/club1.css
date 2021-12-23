@@ -1,0 +1,264 @@
+.club1_title {
+    font-size: 55px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.club1_wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.club1_description {
+    padding: 30px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+.rightimg {
+    float: right; 
+    margin-left: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.gallery {
+    margin: 40px auto 0;
+    width: 850px;
+    margin-bottom: 100px;
+}
+
+.gallery a {
+    display: inline-block;
+    height: 135px;
+    position: relative;
+    width: 180px;
+    margin: 10px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.gallery a img {
+    border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 4px 4px 8px #444;
+}
+
+.gallery a:nth-child(1) img {
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+
+.gallery a:nth-child(2) img {
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.gallery a:nth-child(3) img {
+    -moz-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.gallery a:nth-child(4) img {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.gallery a:nth-child(5) img {
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.gallery a:nth-child(6) img {
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.gallery a:nth-child(7) img {
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.gallery a:nth-child(8) img {
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.gallery a:focus .galerry_img1 {
+    cursor: default;
+    height: 350%;
+    left: 100px;
+    top: -100px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img2 {
+    cursor: default;
+    height: 350%;
+    left: -100px;
+    top: -100px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img3 {
+    cursor: default;
+    height: 350%;
+    left: -300px;
+    top: -100px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img4 {
+    cursor: default;
+    height: 350%;
+    left: -500px;
+    top: -100px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img5 {
+    cursor: default;
+    height: 350%;
+    left: 100px;
+    top: -250px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img6 {
+    cursor: default;
+    height: 350%;
+    left: -100px;
+    top: -250px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img7 {
+    cursor: default;
+    height: 350%;
+    left: -300px;
+    top: -250px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.gallery a:focus .galerry_img8 {
+    cursor: default;
+    height: 350%;
+    left: -500px;
+    top: -250px;
+    position: absolute;
+    width: 350%;
+    z-index: 25;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}

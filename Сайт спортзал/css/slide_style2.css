@@ -1,0 +1,56 @@
+.slide__text_position2 {
+    display: flex;
+    justify-content: space-around;
+ }
+
+.img_1 {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width: 20%;
+}
+
+.buy_card {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    text-decoration: none;
+    font-size: 25px;
+    border: #cb0101 2px solid;
+    border-radius: 10%;
+    box-shadow: 3px 3px 7px #000;
+    color: white;
+    padding: 10px;  
+}
+
+.slide__heading2 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+.slide__text2_1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.slide__text2_2 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
